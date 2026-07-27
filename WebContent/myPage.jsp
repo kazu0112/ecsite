@@ -77,7 +77,7 @@
 			</s:if>
 			<s:elseif test="message == null">
 				<h3>ご購入情報は以下になります。</h3>
-				<table birder="1">
+				<table border="1">
 				<tr>
 					<th>商品名</th>
 					<th>値段</th>
