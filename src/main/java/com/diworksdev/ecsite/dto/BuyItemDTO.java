@@ -6,7 +6,7 @@ public class BuyItemDTO {
 	public String itemName;
 	public String itemPrice;
 	
-	public String getItemNmae() {
+	public String getItemName() {
 		return itemName;
 	}
 	
