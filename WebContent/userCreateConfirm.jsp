@@ -63,7 +63,7 @@
 		</div>
 	</div>
 	<div id="main">
-		<div id="pr">
+		<div id="top">
 			<p>UserCreateConfirm</p>
 		</div>
 		<div>
