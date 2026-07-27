@@ -38,14 +38,14 @@
 		
 		#header{
 			width:100%;
-			height:500px;
-			text-align:center;
+			height:80px;
+			background-color:black;
 		}
 		
 		#main{
 			width:100%;
-			height:80px;
-			background-color:black;
+			height:500px;
+			text-align:center;
 		}
 		
 		#footer{
@@ -74,7 +74,7 @@
 			<s:form action="HomeAction">
 				<s:submit value="商品購入"/>
 			</s:form>
-			<s:if text="#session. login_user_id !=null">
+			<s:if test="#session.login_user_id !=null">
 				<p>ログアウトする場合は
 					<a href='<s:url action="LogoutAction"/>'>こちら</a>
 				</p>

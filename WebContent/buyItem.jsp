@@ -78,20 +78,21 @@
 						<br>
 					</td>
 				</tr>
+				<tr>
 					<td>
 						<span>値段</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_price/><span>円</span>
+						<s:property value="session.buyItem_price"/><span>円</span>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<span>購入個数</sapn>
+						<span>購入個数</span>
 					</td>
 					<td>
 						<select name="count">
-							<option value="1" selscted="selected">1</option>
+							<option value="1" selected="selected">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
 							<option value="4">4</option>
@@ -117,7 +118,7 @@
 			</s:form>
 				<div>
 					<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a></p>
-					<p>マイページは<a herf='<s:url action="MyPageAction"/>'>こちら</a></p>
+					<p>マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a></p>
 				</div>
 		</div>
 		</div>
