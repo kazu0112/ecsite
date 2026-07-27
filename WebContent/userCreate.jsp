@@ -77,7 +77,7 @@
 						<label>ログインID:</label>
 					</td>
 					<td>
-						<input type="text" name="loginuserId" value=""/>
+						<input type="text" name="loginUserId" value=""/>
 					</td>
 				</tr>
 				<tr>

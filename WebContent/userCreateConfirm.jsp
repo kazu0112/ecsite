@@ -91,7 +91,7 @@
 							<label>ユーザー名:</label>
 						</td>
 						<td>
-							<s:property value="useerName" escape="false"/>
+							<s:property value="userName" escape="false"/>
 						</td>
 					</tr>
 					<tr>

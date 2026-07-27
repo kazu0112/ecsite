@@ -24,7 +24,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 				session.put("loginPassword", loginPassword);
 				session.put("userName", userName);
 		} else {
-			setErrorMessage("未入力の小目があります。");
+			setErrorMessage("未入力の項目があります。");
 			result = ERROR;
 		}
 		return result;
@@ -38,7 +38,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		this.loginUserId = loginUserId;
 	}
 	
-	public String getLoginPAssword() {
+	public String getLoginPassword() {
 		return loginPassword;
 	}
 	
